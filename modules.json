@@ -1,0 +1,21 @@
+{
+  "$schema": "https://cobolget.com/schema.json",
+  "name": "package-name",
+  "description": "Microservice in COBOL",
+  "modules": [],
+  "dialect": "gnucobol",
+  "licenses": [
+    "MIT"
+  ],
+  "authors": [
+    "Robin Kristiansen"
+  ],
+  "dependencies": {
+    "core-network": "*",
+    "core-string": "*"
+  },
+  "dependencies-debug": {
+    "gcblunit": "*"
+  },
+  "scripts": {}
+}
